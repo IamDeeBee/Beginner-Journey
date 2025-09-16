@@ -28,6 +28,15 @@ def main():
    print("The product is ", x*y)
    print("The square of x is ", x*x)
    print("The square of y is ", y*y)
-
-main()
+'''
+This is called a main guard
+It is a best practice while coding in Python
+Reasons:
+1.)Removes surprises : code doesn’t auto-run when the file is imported elsewhere.
+2.)Keeps Code reusable → the same file can act as a library (functions you import) and a program (things you run).
+3.)Testing friendly → tools like pytest can import your file without triggering the whole program.
+4.)Scales well → once projects get bigger than one file, you need this guard.
+'''
+if __name__ == "__main__":
+   main()
 
