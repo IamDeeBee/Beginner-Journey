@@ -9,8 +9,7 @@ It must run  only in the main function.
 2.) It will output the sum
 3.) It will output the difference 
 4.) It will output the product
-5.) It will output the difference 
-6.) It will output the square 
+5.) It will output the square 
 '''
 import math
 
